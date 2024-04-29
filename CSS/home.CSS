@@ -5,7 +5,7 @@
 
 
 .containerheader{
-    height: 10vh;
+    height: 13vh;
     background-color: #212121;
    display: grid;
    grid-template-columns:5% 20% 20% 20% 35% ;
@@ -14,6 +14,10 @@
    align-content: center ;
 }
 
+
+.logo{
+  grid-column: 2;
+}
 
 
 
@@ -128,7 +132,7 @@
     align-content: end;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 50px ;
+    font-size: 40px ;
   }
 
   .quemsomostexto{
@@ -136,7 +140,7 @@
     grid-column-start: 2;
     color: white;
     align-self: center;
-    font-size: 20px;
+    font-size: 16px;
   }
 
 .imagemsub1{
@@ -165,8 +169,8 @@
 }
 
 .card-container {
-    width: 350px;
-    height: 300px;
+    width: 300px;
+    height: 270px;
     position: relative;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -193,7 +197,7 @@
   }
   
   .card .front-content p {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
     opacity: 1;
     background: linear-gradient(-45deg, #000000 0%, #ff0f7b 100% );
@@ -226,7 +230,7 @@
   }
   
   .card .content .heading {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
   }
   
@@ -246,8 +250,8 @@
 
 
   .card2-container {
-    width: 350px;
-    height: 300px;
+    width: 300px;
+    height: 270px;
     position: relative;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -273,7 +277,7 @@
   }
   
   .card2 .front-content2 p {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
     opacity: 1;
     background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
@@ -306,7 +310,7 @@
   }
   
   .card2 .content2 .heading2 {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
   }
   
@@ -324,8 +328,8 @@
 
 
   .card3-container {
-    width: 350px;
-    height: 300px;
+    width: 300px;
+    height: 270px;
     position: relative;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -351,7 +355,7 @@
   }
   
   .card3 .front-content3 p {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
     opacity: 1;
     background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
@@ -384,7 +388,7 @@
   }
   
   .card3 .content3 .heading3 {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
   }
   
@@ -412,8 +416,8 @@
 }
 
 .card-container4 {
-    width: 350px;
-    height: 300px;
+    width: 300px;
+    height: 270px;
     position: relative;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -440,7 +444,7 @@
   }
   
   .card4 .front-content4 p {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
     opacity: 1;
     background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
@@ -473,7 +477,7 @@
   }
   
   .card4 .content4 .heading4 {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
   }
   
@@ -491,8 +495,8 @@
 
   
 .card-container5 {
-    width: 350px;
-    height: 300px;
+    width: 300px;
+    height: 270px;
     position: relative;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -518,7 +522,7 @@
   }
   
   .card5 .front-content5 p {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
     opacity: 1;
     background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
@@ -551,7 +555,7 @@
   }
   
   .card5 .content5 .heading5 {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
   }
   
@@ -571,8 +575,8 @@
 
   
   .card6-container {
-    width: 350px;
-    height: 300px;
+    width: 300px;
+    height: 270px;
     position: relative;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -598,7 +602,7 @@
   }
   
   .card6 .front-content6 p {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
     opacity: 1;
     background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
@@ -620,7 +624,7 @@
     justify-content: center;
     text-align: center;
     gap: 10px;
-    background: linear-gradient(to top, #13172e 0%, #3a557c 100% );
+    background: linear-gradient(to top, #1258a2 0%, #7998c3 100% );
     color: #000000;
     padding: 20px;
     line-height: 1.5;
@@ -631,7 +635,7 @@
   }
   
   .card6 .content6 .heading6 {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
   }
   
@@ -651,8 +655,8 @@
   
 
   .button {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background-color: rgb(20, 20, 20);
     border: none;
@@ -715,11 +719,20 @@
   .containerfooter{
     height: 20vh;
     display: grid;
-    grid-template-columns: 0.5% 33% 33% 33% 0.5%;
+    grid-template-columns: 25% 25% 25% 25% ;
     grid-template-rows: 20% 60% 20%;
     background-color: #212121;
   } 
 
+  .twitter{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    align-self: center;
+    justify-self: center;
+    background-color: white;
+    border-radius: 40%;
+
+  }
 
   .linkedin{
     grid-column-start: 2;
@@ -741,3 +754,4 @@
     align-self: center;
     justify-self: center;
   }
+
