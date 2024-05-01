@@ -152,6 +152,8 @@
     grid-template-columns: 0.5% 33% 33% 33% 0.5%;
     grid-template-rows: 5% 10% 10% 70% 5%;
     background-color: rgb(255, 255, 255);
+    justify-items: center;
+    align-items: center;
 }
 
 #produtostitulo{
@@ -241,6 +243,16 @@
     opacity: 0;
   }
 
+  .textocard1{
+    grid-row-start: 5;
+    grid-column-start: 2;
+    font-size: 22px;
+  }
+
+  .textocard1 a{
+    color: black;
+    text-decoration: none;
+  }
 
 
 
@@ -321,6 +333,17 @@
     opacity: 0;
   }
 
+  .textocard2{
+    grid-row-start: 5;
+    grid-column-start: 3;
+    font-size: 22px;
+  }
+
+  .textocard2 a{
+    color: black;
+    text-decoration: none;
+  }
+
 
   .card3-container {
     width: 300px;
@@ -399,14 +422,27 @@
     opacity: 0;
   }
 
+  .textocard3{
+    grid-row-start: 5;
+    grid-column-start: 4;
+    font-size: 22px;
+  }
+
+  .textocard3 a{
+    color: black;
+    text-decoration: none;
+  }
+
   
   
   .produtos2{
     height: 60vh;
     display: grid;
     grid-template-columns: 0.5% 33% 33% 33% 0.5%;
-    grid-template-rows: 10% 70% 10% 5% 5%;
+    grid-template-rows: 10% 50% 10% 25% 5%;
     background-color: rgb(255, 255, 255);
+    justify-items: center;
+    align-items: center;
     
 }
 
@@ -489,6 +525,19 @@
   }
 
   
+  .textocard4{
+    grid-row-start: 3;
+    grid-column-start: 2;
+    font-size: 22px;
+  }
+
+  .textocard4 a{
+    color: black;
+    text-decoration: none;
+  }
+
+
+  
 .card-container5 {
     width: 300px;
     height: 270px;
@@ -564,6 +613,18 @@
   
   .card5:hover .front-content5 p {
     opacity: 0;
+  }
+
+  
+  .textocard5{
+    grid-row-start: 3;
+    grid-column-start: 3;
+    font-size: 22px;
+  }
+  
+  .textocard5 a{
+    color: black;
+    text-decoration: none;
   }
 
 
@@ -647,6 +708,16 @@
     opacity: 0;
   }
 
+  .textocard6{
+    grid-column-start: 4;
+    grid-row-start: 3;
+    font-size: 22px;
+  }
+
+  .textocard6 a{
+    color: black;
+    text-decoration: none;
+  }
   
 
   .button {
@@ -750,45 +821,44 @@
     justify-self: center;
   }
 
-@media screen and (max-width: 500px){
-  .containerheader {
-    display: flex;
-  }
-  
-}
 
-@media screen and (max-width: 500px){
+
+@media screen and (max-width: 750px){
   .containerheader {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 33.3% 33.3% 33.3%;
     grid-template-rows: 5% 90% 5%;
+    height: 0;
   }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 750px){
   .containerheader button, a, div, span{
     font-size: 10px;
   }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 750px){
   .btn3::before{
     margin: 0;
     padding: 0;
     border: none;
     position: unset;
-
   }
 }
 
-@media screen and (max-width: 500px){
+
+
+
+
+@media screen and (max-width: 750px){
   .containersub{
     grid-template-columns: 5% 90% 5%;
     grid-template-rows: 5% 15% 35% 40% 5%;
   }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 750px){
   .quemsomos{
     font-size: 25px;
     grid-row-start: 2;
@@ -798,13 +868,13 @@
   }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 750px){
   .quemsomostexto{
     grid-row-start: 3;
   }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 750px){
   .imagemsub1{
     grid-column-start: 2;
     grid-column-end: 3;
@@ -814,7 +884,7 @@
 }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 750px){
   .produtos{grid-template-columns: 5% 90% 10%;
     grid-template-rows: 2% 5% 25% 5% 25% 5% 25% 5%;
     height: 180vh;
@@ -822,65 +892,202 @@
   }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 750px){
  #produtostitulo{
   justify-self: center;
   grid-column-start: 2;
    
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 750px){
   .card-container{grid-column-start: 2;
     grid-row-start: 3;
   }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 750px){
+.textocard1{
+  grid-row-start: 4;
+  grid-column-start: 2;
+  }
+}
+
+@media screen and (max-width: 750px){
+  .textocard1 a{
+    font-size: 30px;
+    }
+  }
+  
+
+@media screen and (max-width: 750px){
+  .front-content{height: 0;
+  }
+}
+
+
+
+
+@media screen and (max-width: 750px){
   .card2-container{grid-column-start: 2;
     grid-row-start: 5;
 
   }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 750px){
+  .textocard2{
+    grid-row-start: 6;
+    grid-column-start: 2;
+    }
+  }
+
+  @media screen and (max-width: 750px){
+    .textocard2 a{
+      font-size: 30px;
+      }
+    }
+
+
+
+@media screen and (max-width: 750px){
   .card3-container{grid-column-start: 2;
     grid-row-start: 7;
 
   }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 750px){
+  .textocard3{
+    grid-row-start: 8;
+    grid-column-start: 2;
+    }
+  }
+
+  @media screen and (max-width: 750px){
+    .textocard3 a{
+      font-size: 30px;
+      }
+    }
+
+
+@media screen and (max-width: 750px){
   .produtos2{grid-template-columns: 5% 90% 10%;
-    grid-template-rows: 25% 5% 25% 5% 25% 5%;
+    grid-template-rows: 25% 5% 25% 5% 25% 5% 10%;
     height: 180vh;
     align-items: center;
   }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 750px){
   .card-container4{grid-column-start: 2;
     grid-row-start: 1;
   }
 }
 
+@media screen and (max-width: 750px){
+  .textocard4{
+    grid-row-start: 2;
+    grid-column-start: 2;
+    }
+  }
 
-@media screen and (max-width: 500px){
+  @media screen and (max-width: 750px){
+    .textocard4 a{
+      font-size: 30px;
+      }
+    }
+
+@media screen and (max-width: 750px){
   .card-container5{grid-column-start: 2;
     grid-row-start: 3;
 
   }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 750px){
+  .textocard5{
+    grid-row-start: 4;
+    grid-column-start: 2;
+    }
+  }
+
+  @media screen and (max-width: 750px){
+    .textocard5 a{
+      font-size: 30px;
+      }
+    }
+
+@media screen and (max-width: 750px){
   .card6-container{grid-column-start: 2;
     grid-row-start: 5;
 
   }
 }
 
-@media screen and (max-width: 500px){
-  .button{grid-column-start: 2;
+@media screen and (max-width: 750px){
+  .textocard6{
     grid-row-start: 6;
+    grid-column-start: 2;
+    }
+  }
+
+  @media screen and (max-width: 750px){
+    .textocard6 a{
+      font-size: 30px;
+      }
+    }
+
+@media screen and (max-width: 750px){
+  .button{grid-column-start: 2;
+    grid-row-start: 7;
 
   }
-}
+}}
+
+@media screen and (max-width: 380px){
+  .quemsomostexto{
+    font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width: 380px){
+    .textocard1 a{
+      font-size: 20px;
+      }
+    }
+    
+    @media screen and (max-width: 380px){
+      .textocard2 a{
+        font-size: 20px;
+        }
+      }
+
+      @media screen and (max-width: 380px){
+        .textocard3 a{
+          font-size: 20px;
+          }
+        }
+
+        @media screen and (max-width: 380px){
+          .textocard4 a{
+            font-size: 20px;
+            }
+          }
+
+          @media screen and (max-width: 380px){
+            .textocard5 a{
+              font-size: 20px;
+              }
+            }
+
+            @media screen and (max-width: 380px){
+              .textocard6 a{
+                font-size: 20px;
+                }
+              }
+              
+              @media screen and (max-width: 380px){
+                .produtos p{
+                  font-size: 30px;
+                  }
+                }
